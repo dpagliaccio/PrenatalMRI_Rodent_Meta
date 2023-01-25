@@ -41,9 +41,6 @@ df <- df %>% drop_na(outcome) %>% dplyr::select(-notes,-selection,-source)
 #as numeric
 df[,c("hours","Tesla","un_M","un_SD","ex_M","ex_SD")] <- sapply(df[,c("hours","Tesla","un_M","un_SD","ex_M","ex_SD")],  function(x) as.numeric(as.character(x)))
 
-x <- df %>% group_by(study) %>%  dplyr::select(un_moms,ex_moms,un_babies,ex_babies) %>% summarize_all(max) %>% ungroup() %>% colSums()
-
-
 # N for litter size and prematurity should be N mom
 df[df$outcome=="Litter Size",c("un_babies","ex_babies")] <- df[df$outcome=="Litter Size",c("un_moms","ex_moms")]
 df[df$outcome=="Gestational Age",c("un_babies","ex_babies")] <- df[df$outcome=="Gestational Age",c("un_moms","ex_moms")]
@@ -55,8 +52,20 @@ df$outcome_stage <- ifelse(df$outcome_timing_dpp>1,"adult","perinatal")
 # binarize exposure length
 df$exposurerealistic <- ifelse(df$hours>2,"long","short")
 
+# binarize exposure timing
+df$exposuretiming <- ifelse(df$exposure_dpc<5,"early","late")
+
+
 # Author + year
 df$AuthorYear <- paste(df$Author,df$Year,sep=" ")
+
+
+
+
+x <- df %>% group_by(study) %>%  dplyr::select(un_moms,ex_moms,un_babies,ex_babies) %>% summarize_all(max) %>% ungroup() %>% colSums()
+x1 <- df %>% filter(outcome_stage=="perinatal")%>% group_by(study) %>%  dplyr::select(un_moms,ex_moms,un_babies,ex_babies) %>% summarize_all(max) %>% ungroup() %>% colSums()
+x2 <- df %>% filter(outcome_stage=="adult")%>% group_by(study) %>%  dplyr::select(un_moms,ex_moms,un_babies,ex_babies) %>% summarize_all(max) %>% ungroup() %>% colSums()
+
 ```
 
 
@@ -201,8 +210,49 @@ Examining influence statistics and omitting n=`r sum(i$Data$dffits >  3 * sqrt(1
 
 
 ```{r moderators, include=FALSE}
+#m.gen.mods <- metareg(m.gen, ~Year+outcome_stage+exposurerealistic+Tesla+control_condition)
 m.gen.mods <- metareg(m.gen, ~Year+outcome_stage+exposurerealistic+Tesla+control_condition)
 #summary(m.gen.mods)
+
+summary(metareg(m.gen, ~Year))
+summary(metareg(m.gen, ~exposurerealistic))
+  summary(metareg(m.gen, ~hours))
+summary(metareg(m.gen, ~Tesla))
+summary(metareg(m.gen, ~control_condition))
+summary(metareg(m.gen, ~exposuretiming))
+  summary(metareg(m.gen, ~exposure_dpc))
+
+s <- df %>% dplyr::select(study,exposure_dpc,exposuretiming,exposuretiming,exposurerealistic) %>% distinct()
+table(s$exposure_dpc<10)
+table(s$exposuretiming,s$exposurerealistic)
+
+
+png(filename = "figs/FigureS5a.png", height = 12, width = 12,units = "cm",res = 75)
+bubble(metareg(m.gen, ~Year), xlab = "Publication Year",col.line = "black")
+dev.off()
+
+png(filename = "figs/FigureS5b.png", height = 12, width = 12,units = "cm",res = 75)
+bubble(metareg(m.gen, ~hours),xlab = "Scan Length (hours)",lwd = 2,col.line = "black", bg = ifelse(df$exposurerealistic=="long","#00BFC4","#F8766D"))
+dev.off()
+
+png(filename = "figs/FigureS5c.png", height = 12, width = 12,units = "cm",res = 75)
+bubble(metareg(m.gen, ~Tesla),xlab = "Field Strength (Tesla)",lwd = 2,col.line = "black", bg = ifelse(df$Tesla>3,"#00BFC4","#F8766D"))
+dev.off()
+
+png(filename = "figs/FigureS5d.png", height = 12, width = 12,units = "cm",res = 75)
+bubble(metareg(m.gen, ~control_condition),xlab = "Control Condition",lwd = 2,col.line = "black")
+dev.off()
+
+png(filename = "figs/FigureS5e.png", height = 12, width = 12,units = "cm",res = 75)
+bubble(metareg(m.gen, ~exposure_dpc),xlab = "Exposure Timing (days postpartum)",lwd = 2,col.line = "black", bg = ifelse(df$exposuretiming=="late","#00BFC4","#F8766D"))
+dev.off()
+
+png(filename = "figs/FigureS5f.png", height = 12, width = 12,units = "cm",res = 75)
+bubble(metareg(m.gen, ~outcome_timing_dpp),xlab = "Outcome Timing (days postpartum)",lwd = 2,col.line = "black", bg = ifelse(df$outcome_stage=="adult","#00BFC4","#F8766D"))
+dev.off()
+
+
+#summary(metareg(m.gen, ~exposure_dpc))
 ```
 
 ```{r split agg, include=F}
