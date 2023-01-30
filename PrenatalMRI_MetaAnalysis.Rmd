@@ -58,6 +58,7 @@ df$exposuretiming <- ifelse(df$exposure_dpc<5,"early","late")
 
 # Author + year
 df$AuthorYear <- paste(df$Author,df$Year,sep=" ")
+df$StudyRef <- paste(str_c("(",df$study,")"),df$Author,df$Year,sep=" ")
 
 
 
@@ -97,6 +98,7 @@ ESbin2 <- escalc(data=df %>% filter(out_binary=="y", out_better=="y") ,measure="
 #bind all together
 df <- rbind(EScon1,EScon2,ESbin1,ESbin2) 
 df <- df %>% arrange(es.id)
+df <- df %>% dplyr::arrange(study)
 rm(EScon1,EScon2,ESbin1,ESbin2)
 
 ```
@@ -146,7 +148,7 @@ agg <- aggregate(df, cluster=AuthorYear, V=vcov(res, type="obs"), addk=TRUE)
 
 m.agg <- metagen(TE = ES,
                  seTE = seTE,
-                 studlab = AuthorYear,
+                 studlab = StudyRef,
                  data = agg,
                  sm = "SMD",
                  fixed = FALSE,

@@ -1,82 +1,82 @@
 ﻿es.id,study,Author,Year,Model,hours,Tesla,exposure_dpc,control_condition,un_moms,ex_moms,un_babies,ex_babies,outcome_type,outcome,outcome_timing_dpp,out_better,out_binary,un_M,un_SD,ex_M,ex_SD,un_pos,un_neg,ex_pos,ex_neg,source,notes,selection
-1,1,McRobbie,1985,mice,0.17,0.17,3,sham,23,23,244,246,reproductive,Litter Size,0,y,n,10.60,2.60,10.70,2.90,NA,NA,NA,NA,Table1,,
-2,1,McRobbie,1985,mice,0.17,0.17,3,sham,23,23,46,44,reproductive,Birth Weight,0,y,n,2.00,0.30,1.90,0.30,NA,NA,NA,NA,Table2,,
-3,1,McRobbie,1985,mice,0.17,0.17,3,sham,23,23,301,299,survival,Death,21,n,y,NA,NA,NA,NA,8,293,1,298,Results,,
-4,1,McRobbie,1985,mice,0.17,0.17,3,sham,23,23,301,299,growth,Weening Weight,21,y,n,13.10,1.70,13.00,1.30,NA,NA,NA,NA,Table2,,
-5,1,McRobbie,1985,mice,0.17,0.17,3,sham,23,23,301,299,growth,Adult Weight,35,y,n,27.30,1.60,27.30,1.60,NA,NA,NA,NA,Table2,,
-6,2,Heinrichs,1988,mice,16.00,0.35,8,cage,29,37,182,231,reproductive,Inviability,-1,n,y,NA,NA,NA,NA,21,161,26,205,Table1,combined resorption and stillbirth,unexposed control
-7,2,Heinrichs,1988,mice,16.00,0.35,8,cage,29,37,182,231,reproductive,Litter Size,-1,y,n,7.50,0.20,7.20,0.20,NA,NA,NA,NA,Table2,,unexposed control
-8,2,Heinrichs,1988,mice,16.00,0.35,8,cage,29,37,182,231,reproductive,Birth Weight,-1,y,n,881.00,13.00,840.00,13.00,NA,NA,NA,NA,Table2,,unexposed control
-9,2,Heinrichs,1988,mice,16.00,0.35,8,cage,29,37,182,231,reproductive,Length,-1,y,n,22.00,0.10,21.80,0.20,NA,NA,NA,NA,Table2,,unexposed control
-67,3,Tyndall,1991,mice,0.60,1.50,7,sham,15,15,103,118,reproductive,Inviability,-5,n,y,NA,NA,NA,NA,10,93,20,98,Table1,combined resorption and inviable,MAGI condition
-68,3,Tyndall,1991,mice,0.60,1.50,7,sham,15,15,103,118,reproductive,Litter Size,-5,y,n,6.90,1.30,7.30,2.00,NA,NA,NA,NA,Table1,,MAGI condition
-10,4,Murakami,1992,mice,7.00,6.30,7,cage,50,84,649,1087,reproductive,Inviability,-1,n,y,NA,NA,NA,NA,59,590,104,983,Table2,,
-11,4,Murakami,1992,mice,7.00,6.30,7,cage,50,84,649,1087,reproductive,Litter Size,-1,y,n,11.80,0.60,11.70,0.40,NA,NA,NA,NA,Table2,,
-12,4,Murakami,1992,mice,7.00,6.30,7,cage,50,84,649,1087,reproductive,Birth Weight,-1,y,n,1273.00,6.00,1275.00,4.00,NA,NA,NA,NA,Table2,,
-13,4,Murakami,1992,mice,7.00,6.30,7,cage,50,84,590,983,reproductive,Anomalies,-1,n,y,NA,NA,NA,NA,5,585,5,978,Table4,,
-14,5,Mevissen,1994,rats,480.00,0.03,1,sham,12,12,102,62,reproductive,Placenta Weight,-1,y,n,5.29,0.59,4.28,1.50,NA,NA,NA,NA,Table1,,static field condition
-15,5,Mevissen,1994,rats,480.00,0.03,1,sham,12,12,102,62,reproductive,Litter Size,-1,y,n,11.20,0.80,8.90,3.00,NA,NA,NA,NA,Table1,,static field condition
-16,5,Mevissen,1994,rats,480.00,0.03,1,sham,12,12,102,62,reproductive,Resorption,-1,n,n,0.44,0.73,1.57,2.94,NA,NA,NA,NA,Table1,,static field condition
-17,5,Mevissen,1994,rats,480.00,0.03,1,sham,12,12,102,62,reproductive,Inviability,-1,n,y,NA,NA,NA,NA,1,101,0,62,Results,,static field condition
-18,5,Mevissen,1994,rats,480.00,0.03,1,sham,12,12,102,62,reproductive,Birth Weight,1,y,n,2.10,0.20,2.23,0.19,NA,NA,NA,NA,Table1,,static field condition
-19,5,Mevissen,1994,rats,480.00,0.03,1,sham,12,12,102,62,reproductive,Malformations,-1,n,y,NA,NA,NA,NA,0,102,0,62,Table1,,static field condition
-20,5,Mevissen,1994,rats,480.00,0.03,1,sham,12,12,102,62,reproductive,Anomalies,-1,n,y,NA,NA,NA,NA,6,96,2,60,Table1,,static field condition
-21,5,Mevissen,1994,rats,480.00,0.03,1,sham,12,12,102,62,reproductive,Variants,-1,n,y,NA,NA,NA,NA,35,67,8,54,Table1,,static field condition
-22,5,Mevissen,1994,rats,480.00,0.03,1,sham,12,12,102,62,reproductive,Birth Weight,1,y,n,5.60,0.53,5.90,0.53,NA,NA,NA,NA,Table2,,static field condition
-23,5,Mevissen,1994,rats,480.00,0.03,1,sham,12,12,102,62,growth,Adult Weight,71,y,n,275.00,66.80,276.50,70.80,NA,NA,NA,NA,Table2,,static field condition
-24,6,Rofsky,1994,mice,0.28,1.50,9,cage,15,16,161,151,reproductive,Litter Size,-1,y,n,10.70,1.30,9.40,2.80,NA,NA,NA,NA,Table1,,
-25,6,Rofsky,1994,mice,0.28,1.50,9,cage,15,16,161,151,reproductive,Birth Weight,-1,y,n,1.18,0.09,1.18,0.15,NA,NA,NA,NA,Table1,,
-26,6,Rofsky,1994,mice,0.28,1.50,9,cage,15,16,161,151,reproductive,Inviability,-1,n,y,NA,NA,NA,NA,0,161,3,148,Table1,combined resorption and Death,
-27,6,Rofsky,1994,mice,0.28,1.50,9,cage,15,16,161,151,reproductive,Malformations,-1,n,y,NA,NA,NA,NA,0,161,1,150,Table1,,
-28,7,Carnes,1996,mice,8.00,4.70,9,cage,8,10,49,56,reproductive,Birth Weight,0,y,n,1.50,0.02,1.53,0.01,NA,NA,NA,NA,Table1,,cage control
-29,7,Carnes,1996,mice,8.00,4.70,9,cage,8,10,49,56,growth,Weening Weight,21,y,n,8.40,0.30,9.40,0.20,NA,NA,NA,NA,Table1,,cage control
-30,7,Carnes,1996,mice,8.00,4.70,9,cage,8,10,49,56,growth,Adult Weight,50,y,n,29.40,0.50,29.20,0.40,NA,NA,NA,NA,Table1,male only,cage control
-31,7,Carnes,1996,mice,8.00,4.70,9,cage,8,10,56,106,survival,Death,50,n,y,NA,NA,NA,NA,9,47,40,66,Table1,,cage control
-32,8,Narra,1996,mice,0.50,1.50,2,cage,289,227,0,0,reproductive,embryogenesis,-1,y,y,NA,NA,NA,NA,106,183,47,180,Table2,,
-36,9,High,2000,rats,30.00,9.40,7,cage,33,34,32,62,reproductive,Litter Size,0,y,n,6.40,1.00,5.60,2.40,NA,NA,NA,NA,Table 12,anasthesia included,
-37,9,High,2000,rats,30.00,9.40,7,cage,33,34,32,62,growth,eye opening,13,n,n,13.80,1.30,13.50,0.90,NA,NA,NA,NA,Table 12,,
-38,9,High,2000,rats,30.00,9.40,7,cage,33,34,13,24,growth,Birth Weight,0,y,n,7.50,1.20,6.80,1.20,NA,NA,NA,NA,Table13,male only,
-39,9,High,2000,rats,30.00,9.40,7,cage,33,34,13,24,growth,Weening Weight,21,y,n,39.60,8.90,41.20,6.50,NA,NA,NA,NA,Table13,male only,
-40,9,High,2000,rats,30.00,9.40,7,cage,33,34,32,62,reproductive,Malformations,0,n,y,NA,NA,NA,NA,0,32,0,62,Results,,
-41,10,Magin,2000,mice,9.00,4.00,9,cage,4,4,63,49,reproductive,Litter Size,0,y,n,12.60,1.50,12.20,1.70,NA,NA,NA,NA,Table1,,cage control vs. D9/D12 MRI
-42,10,Magin,2000,mice,9.00,4.00,9,cage,4,4,63,49,reproductive,Inviability,0,n,y,NA,NA,NA,NA,0,63,5,44,Table1,combined resorption and stillbirth,cage control vs. D9/D12 MRI
-43,10,Magin,2000,mice,9.00,4.00,9,cage,4,4,63,49,reproductive,Birth Weight,0,y,n,1.50,0.02,1.50,0.02,NA,NA,NA,NA,Table2,,cage control vs. D9/D12 MRI
-44,10,Magin,2000,mice,9.00,4.00,9,cage,4,4,63,49,growth,Weening Weight,21,y,n,7.60,0.20,8.00,0.20,NA,NA,NA,NA,Table2,,cage control vs. D9/D12 MRI
-45,10,Magin,2000,mice,9.00,4.00,9,cage,4,4,63,49,growth,Adult Weight,50,y,n,27.00,0.40,28.80,0.40,NA,NA,NA,NA,Table2,male only,cage control vs. D9/D12 MRI
-46,11,Tablado,2000,mice,336.00,0.50,7,sham,10,10,100,96,reproductive,Litter Size,0,y,n,10.00,3.00,9.60,2.30,NA,NA,NA,NA,Table1,,24h exposure selected
-47,11,Tablado,2000,mice,336.00,0.50,7,sham,10,10,100,96,survival,Death,0,n,y,NA,NA,NA,NA,0,100,0,96,Results,,24h exposure selected
-48,11,Tablado,2000,mice,336.00,0.50,7,sham,10,10,100,96,reproductive,Malformations,0,n,y,NA,NA,NA,NA,0,100,0,96,Results,,24h exposure selected
-49,11,Tablado,2000,mice,336.00,0.50,7,sham,10,10,54,49,reproductive,Birth Weight,1,y,n,1.70,0.10,1.70,0.10,NA,NA,NA,NA,Table2,male only,24h exposure selected
-50,11,Tablado,2000,mice,336.00,0.50,7,sham,10,10,24,19,growth,Adult Weight,35,y,n,19.60,2.40,19.30,3.90,NA,NA,NA,NA,Table2,male only,24h exposure selected
-51,11,Tablado,2000,mice,336.00,0.50,7,sham,10,10,10,10,growth,Testis-Epididymis weight,1,y,n,2.20,0.30,1.90,0.20,NA,NA,NA,NA,Table3,male only,24h exposure selected
-52,11,Tablado,2000,mice,336.00,0.50,7,sham,10,10,10,10,growth,Testis-Epididymis weight,35,y,n,66.00,7.40,65.30,3.80,NA,NA,NA,NA,Table3,male only,24h exposure selected
-53,12,Gu,2001,mice,1.00,0.50,8,cage,21,20,296,288,reproductive,Inviability,-1,n,y,NA,NA,NA,NA,29,267,56,232,Table1,combined types of death,
-54,12,Gu,2001,mice,1.00,0.50,8,cage,21,20,267,232,reproductive,Litter Size,-1,y,n,13.00,1.76,13.10,3.30,NA,NA,NA,NA,Table1,,
-55,12,Gu,2001,mice,1.00,0.50,8,cage,21,20,267,232,reproductive,Birth Weight,-1,y,n,1.14,0.15,1.18,0.10,NA,NA,NA,NA,Table1,male only,
-56,12,Gu,2001,mice,1.00,0.50,8,cage,21,20,267,232,reproductive,Malformations,-1,n,y,NA,NA,NA,NA,0,267,6,226,Table2,,
-57,13,Lee,2001,mice,456.00,0.05,0,cage,8,7,56,48,survival,Death,0,n,y,NA,NA,NA,NA,0,56,0,48,Table1,,
-58,13,Lee,2001,mice,456.00,0.05,0,cage,8,7,2,2,neural,Dopamine,28,y,n,9.61,0.42,10.64,0.32,NA,NA,NA,NA,Table1,male only,
-59,13,Lee,2001,mice,456.00,0.05,0,cage,8,7,2,2,neural,DOPAC,28,y,n,0.85,0.05,0.92,0.05,NA,NA,NA,NA,Table1,male only,
-60,13,Lee,2001,mice,456.00,0.05,0,cage,8,7,2,2,neural,Dopamine,48,y,n,10.12,0.36,13.14,0.48,NA,NA,NA,NA,Table1,male only,
-61,13,Lee,2001,mice,456.00,0.05,0,cage,8,7,2,2,neural,DOPAC,48,y,n,0.89,0.04,1.18,0.04,NA,NA,NA,NA,Table1,male only,
-62,14,Okazaki,2001,mice,48.00,4.70,7,cage,13,8,193,107,reproductive,Inviability,-1,n,y,NA,NA,NA,NA,6,187,2,105,Results,,
-63,14,Okazaki,2001,mice,48.00,4.70,7,cage,13,8,193,107,reproductive,Malformations,-1,n,y,NA,NA,NA,NA,1,192,0,107,Results,,
-64,14,Okazaki,2001,mice,48.00,4.70,7,cage,13,8,193,107,reproductive,Birth Weight,-1,y,n,1.56,0.10,1.58,0.11,NA,NA,NA,NA,Results,,
-65,14,Okazaki,2001,mice,48.00,4.70,7,cage,13,8,193,107,reproductive,Malformations,-1,n,y,NA,NA,NA,NA,48,145,31,76,Results,,
-66,14,Okazaki,2001,mice,48.00,4.70,7,cage,13,8,193,107,reproductive,Ossification,-1,n,y,NA,NA,NA,NA,99,94,78,29,Results,,
-69,15,Jiang,2004,rats,4.67,0.35,12,sham,7,8,10,10,behavioral,Morris water maze,30,n,n,39.36,3.52,38.57,2.73,NA,NA,NA,NA,Table1,female,"earliest and latest assessments, female only"
-70,15,Jiang,2004,rats,4.67,0.35,12,sham,7,8,10,10,behavioral,Morris water maze,150,n,n,39.88,2.02,40.88,3.09,NA,NA,NA,NA,Table1,female,
-33,16,Saito,2006,mice,1.00,0.40,7,sham,80,80,714,651,reproductive,Litter Size,-1,y,n,7.90,2.00,8.10,2.30,NA,NA,NA,NA,Table1,not clear what happens in sham,
-34,16,Saito,2006,mice,1.00,0.40,7,sham,80,80,44,49,reproductive,Birth Weight,-1,y,n,1.19,0.19,1.15,0.16,NA,NA,NA,NA,Table2,"logged earliest exposure, just males",
-35,16,Saito,2006,mice,1.00,0.40,7,sham,80,80,714,651,reproductive,Malformations,-1,n,y,NA,NA,NA,NA,8,706,122,529,Table4,,
-71,17,Laszlo,2011,mice,40.00,1.47,14,cage,6,6,0,0,reproductive,Gestational Age,0,y,n,19.33,0.21,19.00,0.26,NA,NA,NA,NA,Results,,Group 1 vs. Group 2
-72,18,Hoyer,2012,mice,22.50,7.00,1,sham,26,21,13,13,behavioral,Open Field,70,y,n,18.85,1.58,19.75,1.40,NA,NA,NA,NA,Table2,Time in center,males
-73,18,Hoyer,2012,mice,22.50,7.00,1,sham,26,21,13,13,behavioral,Novel Object ,70,y,n,11.27,1.95,14.19,1.56,NA,NA,NA,NA,Table2,approaches # (latency is log transformed),
-74,18,Hoyer,2012,mice,22.50,7.00,1,sham,26,21,13,13,behavioral,Elevated O-Maze ,70,n,n,143.65,18.89,167.46,21.57,NA,NA,NA,NA,Table2,latency to exit,
-75,18,Hoyer,2012,mice,22.50,7.00,1,sham,26,21,13,13,behavioral,Dark-Light-Box,70,n,n,100.04,22.83,76.27,14.34,NA,NA,NA,NA,Table2,latency to exit,
-76,18,Hoyer,2012,mice,22.50,7.00,1,sham,26,21,7,6,behavioral,Hotplate,70,n,n,19.42,1.56,21.00,2.58,NA,NA,NA,NA,Table2,latency,
-77,18,Hoyer,2012,mice,22.50,7.00,1,sham,26,21,7,6,behavioral,Learned Helplessness,70,y,n,0.25,0.17,0.93,0.37,NA,NA,NA,NA,Table2,avoidance,
-78,18,Hoyer,2012,mice,22.50,7.00,1,sham,26,21,7,6,behavioral,T-Maze,70,y,n,1.22,0.11,1.20,0.12,NA,NA,NA,NA,Table2,enties,
-79,18,Hoyer,2012,mice,22.50,7.00,1,sham,26,21,7,6,behavioral,Novel Cage,70,y,n,41.50,1.76,44.50,2.35,NA,NA,NA,NA,Table2,rearings,
-80,18,Hoyer,2012,mice,22.50,7.00,1,sham,26,21,6,7,behavioral,Fear Conditioning,70,n,n,32.38,9.39,40.83,4.38,NA,NA,NA,NA,Table2,freezing,
-81,18,Hoyer,2012,mice,22.50,7.00,1,sham,26,21,6,7,behavioral,Rotarod ,70,y,n,137.93,11.77,137.92,26.20,NA,NA,NA,NA,Table2,latency,
+1,36,McRobbie,1985,mice,0.17,0.17,3,sham,23,23,244,246,reproductive,Litter Size,0,y,n,10.6,2.6,10.7,2.9,NA,NA,NA,NA,Table1,,
+2,36,McRobbie,1985,mice,0.17,0.17,3,sham,23,23,46,44,reproductive,Birth Weight,0,y,n,2,0.3,1.9,0.3,NA,NA,NA,NA,Table2,,
+3,36,McRobbie,1985,mice,0.17,0.17,3,sham,23,23,301,299,survival,Death,21,n,y,NA,NA,NA,NA,8,293,1,298,Results,,
+4,36,McRobbie,1985,mice,0.17,0.17,3,sham,23,23,301,299,growth,Weening Weight,21,y,n,13.1,1.7,13,1.3,NA,NA,NA,NA,Table2,,
+5,36,McRobbie,1985,mice,0.17,0.17,3,sham,23,23,301,299,growth,Adult Weight,35,y,n,27.3,1.6,27.3,1.6,NA,NA,NA,NA,Table2,,
+6,37,Heinrichs,1988,mice,16,0.35,8,cage,29,37,182,231,reproductive,Inviability,-1,n,y,NA,NA,NA,NA,21,161,26,205,Table1,combined resorption and stillbirth,unexposed control
+7,37,Heinrichs,1988,mice,16,0.35,8,cage,29,37,182,231,reproductive,Litter Size,-1,y,n,7.5,0.2,7.2,0.2,NA,NA,NA,NA,Table2,,unexposed control
+8,37,Heinrichs,1988,mice,16,0.35,8,cage,29,37,182,231,reproductive,Birth Weight,-1,y,n,881,13,840,13,NA,NA,NA,NA,Table2,,unexposed control
+9,37,Heinrichs,1988,mice,16,0.35,8,cage,29,37,182,231,reproductive,Length,-1,y,n,22,0.1,21.8,0.2,NA,NA,NA,NA,Table2,,unexposed control
+67,38,Tyndall,1991,mice,0.6,1.5,7,sham,15,15,103,118,reproductive,Inviability,-5,n,y,NA,NA,NA,NA,10,93,20,98,Table1,combined resorption and inviable,MAGI condition
+68,38,Tyndall,1991,mice,0.6,1.5,7,sham,15,15,103,118,reproductive,Litter Size,-5,y,n,6.9,1.3,7.3,2,NA,NA,NA,NA,Table1,,MAGI condition
+10,39,Murakami,1992,mice,7,6.3,7,cage,50,84,649,1087,reproductive,Inviability,-1,n,y,NA,NA,NA,NA,59,590,104,983,Table2,,
+11,39,Murakami,1992,mice,7,6.3,7,cage,50,84,649,1087,reproductive,Litter Size,-1,y,n,11.8,0.6,11.7,0.4,NA,NA,NA,NA,Table2,,
+12,39,Murakami,1992,mice,7,6.3,7,cage,50,84,649,1087,reproductive,Birth Weight,-1,y,n,1273,6,1275,4,NA,NA,NA,NA,Table2,,
+13,39,Murakami,1992,mice,7,6.3,7,cage,50,84,590,983,reproductive,Anomalies,-1,n,y,NA,NA,NA,NA,5,585,5,978,Table4,,
+14,40,Mevissen,1994,rats,480,0.03,1,sham,12,12,102,62,reproductive,Placenta Weight,-1,y,n,5.29,0.59,4.28,1.5,NA,NA,NA,NA,Table1,,static field condition
+15,40,Mevissen,1994,rats,480,0.03,1,sham,12,12,102,62,reproductive,Litter Size,-1,y,n,11.2,0.8,8.9,3,NA,NA,NA,NA,Table1,,static field condition
+16,40,Mevissen,1994,rats,480,0.03,1,sham,12,12,102,62,reproductive,Resorption,-1,n,n,0.44,0.73,1.57,2.94,NA,NA,NA,NA,Table1,,static field condition
+17,40,Mevissen,1994,rats,480,0.03,1,sham,12,12,102,62,reproductive,Inviability,-1,n,y,NA,NA,NA,NA,1,101,0,62,Results,,static field condition
+18,40,Mevissen,1994,rats,480,0.03,1,sham,12,12,102,62,reproductive,Birth Weight,1,y,n,2.1,0.2,2.23,0.19,NA,NA,NA,NA,Table1,,static field condition
+19,40,Mevissen,1994,rats,480,0.03,1,sham,12,12,102,62,reproductive,Malformations,-1,n,y,NA,NA,NA,NA,0,102,0,62,Table1,,static field condition
+20,40,Mevissen,1994,rats,480,0.03,1,sham,12,12,102,62,reproductive,Anomalies,-1,n,y,NA,NA,NA,NA,6,96,2,60,Table1,,static field condition
+21,40,Mevissen,1994,rats,480,0.03,1,sham,12,12,102,62,reproductive,Variants,-1,n,y,NA,NA,NA,NA,35,67,8,54,Table1,,static field condition
+22,40,Mevissen,1994,rats,480,0.03,1,sham,12,12,102,62,reproductive,Birth Weight,1,y,n,5.6,0.53,5.9,0.53,NA,NA,NA,NA,Table2,,static field condition
+23,40,Mevissen,1994,rats,480,0.03,1,sham,12,12,102,62,growth,Adult Weight,71,y,n,275,66.8,276.5,70.8,NA,NA,NA,NA,Table2,,static field condition
+24,41,Rofsky,1994,mice,0.28,1.5,9,cage,15,16,161,151,reproductive,Litter Size,-1,y,n,10.7,1.3,9.4,2.8,NA,NA,NA,NA,Table1,,
+25,41,Rofsky,1994,mice,0.28,1.5,9,cage,15,16,161,151,reproductive,Birth Weight,-1,y,n,1.18,0.09,1.18,0.15,NA,NA,NA,NA,Table1,,
+26,41,Rofsky,1994,mice,0.28,1.5,9,cage,15,16,161,151,reproductive,Inviability,-1,n,y,NA,NA,NA,NA,0,161,3,148,Table1,combined resorption and Death,
+27,41,Rofsky,1994,mice,0.28,1.5,9,cage,15,16,161,151,reproductive,Malformations,-1,n,y,NA,NA,NA,NA,0,161,1,150,Table1,,
+28,42,Carnes,1996,mice,8,4.7,9,cage,8,10,49,56,reproductive,Birth Weight,0,y,n,1.5,0.02,1.53,0.01,NA,NA,NA,NA,Table1,,cage control
+29,42,Carnes,1996,mice,8,4.7,9,cage,8,10,49,56,growth,Weening Weight,21,y,n,8.4,0.3,9.4,0.2,NA,NA,NA,NA,Table1,,cage control
+30,42,Carnes,1996,mice,8,4.7,9,cage,8,10,49,56,growth,Adult Weight,50,y,n,29.4,0.5,29.2,0.4,NA,NA,NA,NA,Table1,male only,cage control
+31,42,Carnes,1996,mice,8,4.7,9,cage,8,10,56,106,survival,Death,50,n,y,NA,NA,NA,NA,9,47,40,66,Table1,,cage control
+32,43,Narra,1996,mice,0.5,1.5,2,cage,289,227,0,0,reproductive,embryogenesis,-1,y,y,NA,NA,NA,NA,106,183,47,180,Table2,,
+36,44,High,2000,rats,30,9.4,7,cage,33,34,32,62,reproductive,Litter Size,0,y,n,6.4,1,5.6,2.4,NA,NA,NA,NA,Table 12,anasthesia included,
+37,44,High,2000,rats,30,9.4,7,cage,33,34,32,62,growth,eye opening,13,n,n,13.8,1.3,13.5,0.9,NA,NA,NA,NA,Table 12,,
+38,44,High,2000,rats,30,9.4,7,cage,33,34,13,24,growth,Birth Weight,0,y,n,7.5,1.2,6.8,1.2,NA,NA,NA,NA,Table13,male only,
+39,44,High,2000,rats,30,9.4,7,cage,33,34,13,24,growth,Weening Weight,21,y,n,39.6,8.9,41.2,6.5,NA,NA,NA,NA,Table13,male only,
+40,44,High,2000,rats,30,9.4,7,cage,33,34,32,62,reproductive,Malformations,0,n,y,NA,NA,NA,NA,0,32,0,62,Results,,
+41,45,Magin,2000,mice,9,4,9,cage,4,4,63,49,reproductive,Litter Size,0,y,n,12.6,1.5,12.2,1.7,NA,NA,NA,NA,Table1,,cage control vs. D9/D12 MRI
+42,45,Magin,2000,mice,9,4,9,cage,4,4,63,49,reproductive,Inviability,0,n,y,NA,NA,NA,NA,0,63,5,44,Table1,combined resorption and stillbirth,cage control vs. D9/D12 MRI
+43,45,Magin,2000,mice,9,4,9,cage,4,4,63,49,reproductive,Birth Weight,0,y,n,1.5,0.02,1.5,0.02,NA,NA,NA,NA,Table2,,cage control vs. D9/D12 MRI
+44,45,Magin,2000,mice,9,4,9,cage,4,4,63,49,growth,Weening Weight,21,y,n,7.6,0.2,8,0.2,NA,NA,NA,NA,Table2,,cage control vs. D9/D12 MRI
+45,45,Magin,2000,mice,9,4,9,cage,4,4,63,49,growth,Adult Weight,50,y,n,27,0.4,28.8,0.4,NA,NA,NA,NA,Table2,male only,cage control vs. D9/D12 MRI
+46,46,Tablado,2000,mice,336,0.5,7,sham,10,10,100,96,reproductive,Litter Size,0,y,n,10,3,9.6,2.3,NA,NA,NA,NA,Table1,,24h exposure selected
+47,46,Tablado,2000,mice,336,0.5,7,sham,10,10,100,96,survival,Death,0,n,y,NA,NA,NA,NA,0,100,0,96,Results,,24h exposure selected
+48,46,Tablado,2000,mice,336,0.5,7,sham,10,10,100,96,reproductive,Malformations,0,n,y,NA,NA,NA,NA,0,100,0,96,Results,,24h exposure selected
+49,46,Tablado,2000,mice,336,0.5,7,sham,10,10,54,49,reproductive,Birth Weight,1,y,n,1.7,0.1,1.7,0.1,NA,NA,NA,NA,Table2,male only,24h exposure selected
+50,46,Tablado,2000,mice,336,0.5,7,sham,10,10,24,19,growth,Adult Weight,35,y,n,19.6,2.4,19.3,3.9,NA,NA,NA,NA,Table2,male only,24h exposure selected
+51,46,Tablado,2000,mice,336,0.5,7,sham,10,10,10,10,growth,Testis-Epididymis weight,1,y,n,2.2,0.3,1.9,0.2,NA,NA,NA,NA,Table3,male only,24h exposure selected
+52,46,Tablado,2000,mice,336,0.5,7,sham,10,10,10,10,growth,Testis-Epididymis weight,35,y,n,66,7.4,65.3,3.8,NA,NA,NA,NA,Table3,male only,24h exposure selected
+53,47,Gu,2001,mice,1,0.5,8,cage,21,20,296,288,reproductive,Inviability,-1,n,y,NA,NA,NA,NA,29,267,56,232,Table1,combined types of death,
+54,47,Gu,2001,mice,1,0.5,8,cage,21,20,267,232,reproductive,Litter Size,-1,y,n,13,1.76,13.1,3.3,NA,NA,NA,NA,Table1,,
+55,47,Gu,2001,mice,1,0.5,8,cage,21,20,267,232,reproductive,Birth Weight,-1,y,n,1.14,0.15,1.18,0.1,NA,NA,NA,NA,Table1,male only,
+56,47,Gu,2001,mice,1,0.5,8,cage,21,20,267,232,reproductive,Malformations,-1,n,y,NA,NA,NA,NA,0,267,6,226,Table2,,
+57,48,Lee,2001,mice,456,0.05,0,cage,8,7,56,48,survival,Death,0,n,y,NA,NA,NA,NA,0,56,0,48,Table1,,
+58,48,Lee,2001,mice,456,0.05,0,cage,8,7,2,2,neural,Dopamine,28,y,n,9.61,0.42,10.64,0.32,NA,NA,NA,NA,Table1,male only,
+59,48,Lee,2001,mice,456,0.05,0,cage,8,7,2,2,neural,DOPAC,28,y,n,0.85,0.05,0.92,0.05,NA,NA,NA,NA,Table1,male only,
+60,48,Lee,2001,mice,456,0.05,0,cage,8,7,2,2,neural,Dopamine,48,y,n,10.12,0.36,13.14,0.48,NA,NA,NA,NA,Table1,male only,
+61,48,Lee,2001,mice,456,0.05,0,cage,8,7,2,2,neural,DOPAC,48,y,n,0.89,0.04,1.18,0.04,NA,NA,NA,NA,Table1,male only,
+62,49,Okazaki,2001,mice,48,4.7,7,cage,13,8,193,107,reproductive,Inviability,-1,n,y,NA,NA,NA,NA,6,187,2,105,Results,,
+63,49,Okazaki,2001,mice,48,4.7,7,cage,13,8,193,107,reproductive,Malformations,-1,n,y,NA,NA,NA,NA,1,192,0,107,Results,,
+64,49,Okazaki,2001,mice,48,4.7,7,cage,13,8,193,107,reproductive,Birth Weight,-1,y,n,1.56,0.1,1.58,0.11,NA,NA,NA,NA,Results,,
+65,49,Okazaki,2001,mice,48,4.7,7,cage,13,8,193,107,reproductive,Malformations,-1,n,y,NA,NA,NA,NA,48,145,31,76,Results,,
+66,49,Okazaki,2001,mice,48,4.7,7,cage,13,8,193,107,reproductive,Ossification,-1,n,y,NA,NA,NA,NA,99,94,78,29,Results,,
+69,50,Jiang,2004,rats,4.67,0.35,12,sham,7,8,10,10,behavioral,Morris water maze,30,n,n,39.36,3.52,38.57,2.73,NA,NA,NA,NA,Table1,female,"earliest and latest assessments, female only"
+70,50,Jiang,2004,rats,4.67,0.35,12,sham,7,8,10,10,behavioral,Morris water maze,150,n,n,39.88,2.02,40.88,3.09,NA,NA,NA,NA,Table1,female,
+33,51,Saito,2006,mice,1,0.4,7,sham,80,80,714,651,reproductive,Litter Size,-1,y,n,7.9,2,8.1,2.3,NA,NA,NA,NA,Table1,not clear what happens in sham,
+34,51,Saito,2006,mice,1,0.4,7,sham,80,80,44,49,reproductive,Birth Weight,-1,y,n,1.19,0.19,1.15,0.16,NA,NA,NA,NA,Table2,"logged earliest exposure, just males",
+35,51,Saito,2006,mice,1,0.4,7,sham,80,80,714,651,reproductive,Malformations,-1,n,y,NA,NA,NA,NA,8,706,122,529,Table4,,
+71,52,Laszlo,2011,mice,40,1.47,14,cage,6,6,0,0,reproductive,Gestational Age,0,y,n,19.33,0.21,19,0.26,NA,NA,NA,NA,Results,,Group 1 vs. Group 2
+72,53,Hoyer,2012,mice,22.5,7,1,sham,26,21,13,13,behavioral,Open Field,70,y,n,18.85,1.58,19.75,1.4,NA,NA,NA,NA,Table2,Time in center,males
+73,53,Hoyer,2012,mice,22.5,7,1,sham,26,21,13,13,behavioral,Novel Object ,70,y,n,11.27,1.95,14.19,1.56,NA,NA,NA,NA,Table2,approaches # (latency is log transformed),
+74,53,Hoyer,2012,mice,22.5,7,1,sham,26,21,13,13,behavioral,Elevated O-Maze ,70,n,n,143.65,18.89,167.46,21.57,NA,NA,NA,NA,Table2,latency to exit,
+75,53,Hoyer,2012,mice,22.5,7,1,sham,26,21,13,13,behavioral,Dark-Light-Box,70,n,n,100.04,22.83,76.27,14.34,NA,NA,NA,NA,Table2,latency to exit,
+76,53,Hoyer,2012,mice,22.5,7,1,sham,26,21,7,6,behavioral,Hotplate,70,n,n,19.42,1.56,21,2.58,NA,NA,NA,NA,Table2,latency,
+77,53,Hoyer,2012,mice,22.5,7,1,sham,26,21,7,6,behavioral,Learned Helplessness,70,y,n,0.25,0.17,0.93,0.37,NA,NA,NA,NA,Table2,avoidance,
+78,53,Hoyer,2012,mice,22.5,7,1,sham,26,21,7,6,behavioral,T-Maze,70,y,n,1.22,0.11,1.2,0.12,NA,NA,NA,NA,Table2,enties,
+79,53,Hoyer,2012,mice,22.5,7,1,sham,26,21,7,6,behavioral,Novel Cage,70,y,n,41.5,1.76,44.5,2.35,NA,NA,NA,NA,Table2,rearings,
+80,53,Hoyer,2012,mice,22.5,7,1,sham,26,21,6,7,behavioral,Fear Conditioning,70,n,n,32.38,9.39,40.83,4.38,NA,NA,NA,NA,Table2,freezing,
+81,53,Hoyer,2012,mice,22.5,7,1,sham,26,21,6,7,behavioral,Rotarod ,70,y,n,137.93,11.77,137.92,26.2,NA,NA,NA,NA,Table2,latency,
